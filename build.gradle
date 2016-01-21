@@ -99,6 +99,9 @@ release {
     }
 }
 
+createReleaseTag.dependsOn uploadArchives
+
+
 task wrapper( type: Wrapper, description: "create a gradlew" ) {
     gradleVersion = '2.0'
 }
