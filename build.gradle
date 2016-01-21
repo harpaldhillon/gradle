@@ -98,7 +98,7 @@ release {
         requireBranch = 'master'
         pushToRemote = 'origin'
         pushToBranchPrefix = ''
-        commitVersionFileOnly = false
+        //commitVersionFileOnly = false
     }
 }
 
